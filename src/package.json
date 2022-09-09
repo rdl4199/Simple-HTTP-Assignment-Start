@@ -1,0 +1,30 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.15.5",
+    "npm": "6."
+  },
+  "description": "Simple HTTP homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests complete\"",
+    "start": "node index.js",
+    "pretest": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdl4199/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdl4199/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/rdl4199/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
