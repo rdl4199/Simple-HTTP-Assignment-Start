@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "14.15.5",
-    "npm": "6."
+    "npm": "6.14.10"
   },
   "description": "Simple HTTP homework",
   "main": "index.js",
