@@ -13,7 +13,7 @@ const getTime = (request, response) => {
 }
 
 const getHello = (request, response) => {
-    response.writeHEad(200, { 'Content-Type': 'text/plain'});
+    response.writeHead(200, { 'Content-Type': 'text/plain'});
     response.write(hello);
     response.end();
 }

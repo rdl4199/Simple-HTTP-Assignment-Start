@@ -2,6 +2,7 @@ const http = require('http');
 const htmlHandler = require('./htmlReponses.js');
 const textHandler = require('./textResponses.js');
 const jsonHandler = require('./jsonResponses.js');
+const imageHandler = require('./imageResponses.js');
 
 const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
@@ -25,6 +26,9 @@ const onRequest = (request, response) => {
             break;
         case '/timeJSON':
             jsonHandler.getTimeJson(request,response);
+            break;
+        case '/dankmemes':
+            imageHandler.getDankMemes(request,response);
             break;
         default:
             htmlHandler.getIndex(request, response);
